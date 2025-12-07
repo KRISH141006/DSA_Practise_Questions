@@ -18,11 +18,13 @@ Basically there are main 4 methods of reversing the array
 */
 #include<bits/stdc++.h>
 using namespace std;
+
 void printArray(vector<int> arr){
     for(int x : arr)
         cout<<x<<" ";
     cout<<endl;
 }
+
 class Solution {
   public:
     void reverseArray(vector<int> &arr) {
